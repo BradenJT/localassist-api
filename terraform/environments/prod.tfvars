@@ -24,4 +24,4 @@ tags = {
 jwt_secret_key = "CHANGE_ME_IN_GITHUB_SECRETS"
 
 # GitHub OIDC Configuration
-github_repo = "bradenjt/localassist-api"
+github_repo = "BradenJT/localassist-api"
