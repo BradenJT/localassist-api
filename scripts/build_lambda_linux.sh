@@ -37,8 +37,6 @@ pip install \
   mangum==0.17.0 \
   -t $LAYER_DIR \
   --no-cache-dir \
-  --platform manylinux2014_x86_64 \
-  --only-binary=:all: \
   --upgrade
 
 # Clean up unnecessary files to reduce size
