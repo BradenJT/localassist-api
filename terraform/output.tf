@@ -34,3 +34,8 @@ output "cloudwatch_log_group" {
   description = "CloudWatch log group for Lambda"
   value       = aws_cloudwatch_log_group.lambda_logs.name
 }
+
+output "github_actions_role_arn" {
+  description = "ARN of the IAM role for GitHub Actions OIDC"
+  value       = try(aws_iam_role.github_actions.arn, "Not configured")
+}

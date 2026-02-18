@@ -52,3 +52,9 @@ variable "tags" {
   type        = map(string)
   default     = {}
 }
+
+variable "github_repo" {
+  description = "GitHub repository in format 'owner/repo' for OIDC trust"
+  type        = string
+  default     = ""
+}
