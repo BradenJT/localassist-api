@@ -40,7 +40,6 @@ resource "aws_lambda_function" "api" {
       JWT_SECRET_KEY     = var.jwt_secret_key
       LEADS_TABLE_NAME   = aws_dynamodb_table.leads.name
       USERS_TABLE_NAME   = aws_dynamodb_table.users.name
-      AWS_REGION         = var.aws_region
       CORS_ORIGINS       = var.cors_origins
       LOG_LEVEL          = var.log_level
     }
