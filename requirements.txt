@@ -1,0 +1,13 @@
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.4.2
+pydantic-settings==2.0.3
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.1.2
+boto3==1.29.7
+python-multipart==0.0.6
+pytest==7.4.3
+pytest-cov==4.1.0
+python-dotenv==1.0.0
+mangum==0.17.0
